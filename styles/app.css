@@ -28,6 +28,7 @@
   img{
     max-width: 100%;
     width: 100%;
+    /* height: auto; */
     display: flex;
     object-fit: cover;
     object-position: center center;
@@ -264,6 +265,7 @@
 .section .article{
     width: 100%;
     min-height: 20vh;
+    height: 100%;
     background: lightgoldenrodyellow;
     display: flex;
     flex-flow: column nowrap;
