@@ -2,7 +2,7 @@
     --blanco: #e0e0e0;
     --blanco-2: rgba(255,255,255,.2);
     --negro: #181818;
-    --negro-5: rgba(0, 0, 0, 0.5);
+    --negro-8: rgba(0, 0, 0, 0.8);
     --negro-7: rgba(0, 0, 0, 0.75);
     --tipo-titular:'Playfair Display', serif;
     --tipo-principal:'Inter', sans-serif;
@@ -13,7 +13,7 @@
       --blanco: #181818;
       --blanco-2: rgba(0,0,0,.2);
       --negro: #e0e0e0;
-      --negro-5: rgba(255, 255, 255, 0.5);
+      --negro-8: rgba(255, 255, 255, 0.8);
       --negro-7: rgba(255, 255, 255, 0.75);
     }
   }
@@ -31,6 +31,7 @@
     display: flex;
     object-fit: cover;
     object-position: center center;
+    height: 100%;
   }
   a {
     display: block;
@@ -291,7 +292,7 @@
 .section .h4{
     width: 100%;
     height: 100%;
-    background-color: var(--negro-5);
+    background-color: var(--negro-8);
     backdrop-filter: blur(1rem);
     position: absolute;
     bottom: 0;
