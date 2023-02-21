@@ -26,12 +26,11 @@
     vertical-align: baseline;
   }
   img{
-    max-width: 100%;
-    width: 100%;
+    max-width: 320px;
     display: flex;
     object-fit: cover;
-    object-position: center center;
-    height: 100%;
+    /* object-position: center center; */
+    height: 400px;
   }
   a {
     display: block;
