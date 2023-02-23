@@ -411,60 +411,9 @@
     /* transition: all .1s linear; */
 }
 
-@media (min-width:320px){
-  /* Reset default styles */
-  body {
-    margin: 0;
-    padding: 0;
-  }
+/* @media (min-width:320px){
   
-  /* Adjust layout */
-  .section {
-    padding: 20px;
-  }
-  
-  /* Reduce font sizes */
-  .h2 {
-    font-size: 28px;
-  }
-  
-  .h3 {
-    font-size: 20px;
-  }
-  
-  .h4 {
-    font-size: 16px;
-  }
-  
-  .p {
-    font-size: 14px;
-  }
-  
-  /* Make images responsive */
-  .img {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Adjust grid layout */
-  .grid {
-    display: block;
-  }
-  
-  .article {
-    margin: 10px 0;
-  }
-  
-  /* Move social icons to bottom of section */
-  .social {
-    margin-top: 20px;
-  }
-  
-  /* Center footer text */
-  .span {
-    text-align: center;
-  }
-}
+} */
 
 
 /* <a href="https://www.freepik.es/foto-gratis/hombre-joven-atractivo-gafas-ropa-casual-mostrando-pulgares-arriba-senal-aprobacion-como-algo-pie-contra-fondo-azul_18173457.htm#query=model%20man&position=22&from_view=search&track=sph">Imagen de benzoix</a> en Freepik */
