@@ -26,7 +26,7 @@
     vertical-align: baseline;
   }
   img{
-    max-width: 320px;
+    /* max-width: 320px; */
     display: flex;
     object-fit: cover;
     /* object-position: center center; */
@@ -409,6 +409,19 @@
 #cursor.mini{
     transform: scale(0.7);
     /* transition: all .1s linear; */
+}
+
+@media (max-width: 768px) {
+  .h2 {
+      font-size: 1.5em;
+  }
+  .h3 {
+      font-size: 1em;
+  }
+  .li {
+      display: block;
+      margin: 10px 0;
+  }
 }
 
 
