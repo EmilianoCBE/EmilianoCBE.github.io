@@ -422,6 +422,16 @@
       display: block;
       margin: 10px 0;
   }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .p {
+    font-size: 14px;
+  }
+  footer {
+    font-size: 14px;
+    padding: 10px;
+  }
 }
 
 
