@@ -411,26 +411,58 @@
     /* transition: all .1s linear; */
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 767px) {
+  /* Reset default styles */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Adjust layout */
+  .section {
+    padding: 20px;
+  }
+  
+  /* Reduce font sizes */
   .h2 {
-      font-size: 1.5em;
+    font-size: 28px;
   }
+  
   .h3 {
-      font-size: 1em;
+    font-size: 20px;
   }
-  .li {
-      display: block;
-      margin: 10px 0;
+  
+  .h4 {
+    font-size: 16px;
   }
-  .grid {
-    grid-template-columns: 1fr;
-  }
+  
   .p {
     font-size: 14px;
   }
-  footer {
-    font-size: 14px;
-    padding: 10px;
+  
+  /* Make images responsive */
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust grid layout */
+  .grid {
+    display: block;
+  }
+  
+  .article {
+    margin: 10px 0;
+  }
+  
+  /* Move social icons to bottom of section */
+  .social {
+    margin-top: 20px;
+  }
+  
+  /* Center footer text */
+  .span {
+    text-align: center;
   }
 }
 
